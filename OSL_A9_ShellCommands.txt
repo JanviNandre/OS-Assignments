@@ -1,0 +1,332 @@
+~/QuarrelsomeShyFields$ echo $SHELL
+/bin/bash
+~/QuarrelsomeShyFields$ cal
+   September 2021     
+Su Mo Tu We Th Fr Sa  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 21 22 23 24 25  
+26 27 28 29 30        
+                      
+~/QuarrelsomeShyFields$ cal -y 2019
+                            2019
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5                  1  2                  1  2  
+ 6  7  8  9 10 11 12   3  4  5  6  7  8  9   3  4  5  6  7  8  9  
+13 14 15 16 17 18 19  10 11 12 13 14 15 16  10 11 12 13 14 15 16  
+20 21 22 23 24 25 26  17 18 19 20 21 22 23  17 18 19 20 21 22 23  
+27 28 29 30 31        24 25 26 27 28        24 25 26 27 28 29 30  
+                                            31                    
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6            1  2  3  4                     1  
+ 7  8  9 10 11 12 13   5  6  7  8  9 10 11   2  3  4  5  6  7  8  
+14 15 16 17 18 19 20  12 13 14 15 16 17 18   9 10 11 12 13 14 15  
+21 22 23 24 25 26 27  19 20 21 22 23 24 25  16 17 18 19 20 21 22  
+28 29 30              26 27 28 29 30 31     23 24 25 26 27 28 29  
+                                            30                    
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6               1  2  3   1  2  3  4  5  6  7  
+ 7  8  9 10 11 12 13   4  5  6  7  8  9 10   8  9 10 11 12 13 14  
+14 15 16 17 18 19 20  11 12 13 14 15 16 17  15 16 17 18 19 20 21  
+21 22 23 24 25 26 27  18 19 20 21 22 23 24  22 23 24 25 26 27 28  
+28 29 30 31           25 26 27 28 29 30 31  29 30                 
+                                                                  
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5                  1  2   1  2  3  4  5  6  7  
+ 6  7  8  9 10 11 12   3  4  5  6  7  8  9   8  9 10 11 12 13 14  
+13 14 15 16 17 18 19  10 11 12 13 14 15 16  15 16 17 18 19 20 21  
+20 21 22 23 24 25 26  17 18 19 20 21 22 23  22 23 24 25 26 27 28  
+27 28 29 30 31        24 25 26 27 28 29 30  29 30 31              
+                                                                  
+~/QuarrelsomeShyFields$ man cal
+No manual entry for cal
+See 'man 7 undocumented' for help when manual pages are not available.
+~/QuarrelsomeShyFields$ man cal
+No manual entry for cal
+See 'man 7 undocumented' for help when manual pages are not available.
+~/QuarrelsomeShyFields$ cal -1
+   September 2021     
+Su Mo Tu We Th Fr Sa  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 21 22 23 24 25  
+26 27 28 29 30        
+                      
+~/QuarrelsomeShyFields$ cal -3
+    August 2021          September 2021         October 2021      
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7            1  2  3  4                  1  2  
+ 8  9 10 11 12 13 14   5  6  7  8  9 10 11   3  4  5  6  7  8  9  
+15 16 17 18 19 20 21  12 13 14 15 16 17 18  10 11 12 13 14 15 16  
+22 23 24 25 26 27 28  19 20 21 22 23 24 25  17 18 19 20 21 22 23  
+29 30 31              26 27 28 29 30        24 25 26 27 28 29 30  
+                                            31                    
+~/QuarrelsomeShyFields$ date
+Wed Sep 29 06:00:38 UTC 2021
+~/QuarrelsomeShyFields$ date +%m
+09
+~/QuarrelsomeShyFields$ date +%h
+Sep
+~/QuarrelsomeShyFields$ date +%d
+29
+~/QuarrelsomeShyFields$ date +%H %M %S
+date: extra operand ‘%M’
+Try 'date --help' for more information.
+~/QuarrelsomeShyFields$ date +%H  %M %S
+date: extra operand ‘%M’
+Try 'date --help' for more information.
+~/QuarrelsomeShyFields$ date +"%H  %M %S"
+06  02 05
+~/QuarrelsomeShyFields$ pwd
+/home/runner/QuarrelsomeShyFields
+~/QuarrelsomeShyFields$ mkdir D1
+~/QuarrelsomeShyFields$ ls -l
+total 108
+-rw-r--r-- 1 runner runner  1062 Jul 14 05:47 bSearch.c
+-rw-r--r-- 1 runner runner  1163 Sep 22 06:50 client.c
+-rwxr-xr-x 1 runner runner  8648 Sep 22 06:51 client.out
+drwxr-xr-x 1 runner runner     0 Sep 29 06:04 D1
+-rw-r--r-- 1 runner runner  1553 Aug 24 07:19 fifop1.c
+-rw-r--r-- 1 runner runner  1559 Aug 24 07:20 fifop2.c
+-rw-r--r-- 1 runner runner  1081 Jul  9 05:49 main.c
+-rw-r--r-- 1 runner runner  1726 Jul 16 16:05 MultiThread.c
+-rw-r--r-- 1 runner runner  2910 Sep  4 10:55 PC.c
+-rw-r--r-- 1 runner runner  1329 Sep 10 10:35 RoundRobin.c
+-rw-r--r-- 1 runner runner  1714 Sep  3 08:15 RW.c
+-rwxr-xr-x 1 runner runner 13104 Sep 10 09:05 RW.out
+-rw-r--r-- 1 runner runner  1518 Sep 22 06:50 server.c
+-rwxr-xr-x 1 runner runner 12832 Sep 22 06:50 server.out
+-rw-r--r-- 1 runner runner  3136 Aug 31 08:41 SRTF.c
+-rwxr-xr-x 1 runner runner 12584 Sep  1 05:58 SRTF.out
+-rw-r--r-- 1 runner runner   884 Aug 13 10:22 test.c
+~/QuarrelsomeShyFields$ ls
+bSearch.c   fifop2.c       RW.c        SRTF.out
+client.c    main.c     RW.out      test.c
+client.out  MultiThread.c  server.c
+D1      PC.c       server.out
+fifop1.c    RoundRobin.c   SRTF.c
+~/QuarrelsomeShyFields$ umask
+0022
+~/QuarrelsomeShyFields$ cd D1
+~/QuarrelsomeShyFields/D1$ umask
+0022
+~/QuarrelsomeShyFields/D1$ cd ..
+~/QuarrelsomeShyFields$ mkdir D2
+~/QuarrelsomeShyFields$ ls
+bSearch.c   D2        MultiThread.c  RW.out  SRTF.out
+client.c    fifop1.c  PC.c       server.c    test.c
+client.out  fifop2.c  RoundRobin.c   server.out
+D1      main.c    RW.c       SRTF.c
+~/QuarrelsomeShyFields$ rmdir D2
+~/QuarrelsomeShyFields$ ls
+bSearch.c   fifop1.c       PC.c      server.c    test.c
+client.c    fifop2.c       RoundRobin.c  server.out
+client.out  main.c     RW.c      SRTF.c
+D1      MultiThread.c  RW.out    SRTF.out
+~/QuarrelsomeShyFields$ mkdir -p d1/d2/d3
+~/QuarrelsomeShyFields$ ls
+bSearch.c   D1        MultiThread.c  RW.out  SRTF.out
+client.c    fifop1.c  PC.c       server.c    test.c
+client.out  fifop2.c  RoundRobin.c   server.out
+d1      main.c    RW.c       SRTF.c
+~/QuarrelsomeShyFields$ cd d1
+~/QuarrelsomeShyFields/d1$ ls
+d2
+~/QuarrelsomeShyFields/d1$ cd ..
+~/QuarrelsomeShyFields$ cd d1
+~/QuarrelsomeShyFields/d1$ cd d2
+~/.../d1/d2$ pwd
+/home/runner/QuarrelsomeShyFields/d1/d2
+~/.../d1/d2$ cd ..
+~/QuarrelsomeShyFields/d1$ cd ..
+~/QuarrelsomeShyFields$ rmdir -p d1/d2/d3
+~/QuarrelsomeShyFields$ ls
+bSearch.c   fifop1.c       PC.c      server.c    test.c
+client.c    fifop2.c       RoundRobin.c  server.out
+client.out  main.c     RW.c      SRTF.c
+D1      MultiThread.c  RW.out    SRTF.out
+~/QuarrelsomeShyFields$ cd D1
+~/QuarrelsomeShyFields/D1$ touch index.html
+~/QuarrelsomeShyFields/D1$ touch main
+~/QuarrelsomeShyFields/D1$ ls -l
+total 0
+-rw-r--r-- 1 runner runner 0 Sep 29 06:19 index.html
+-rw-r--r-- 1 runner runner 0 Sep 29 06:19 main
+~/QuarrelsomeShyFields/D1$ umask
+0022
+~/QuarrelsomeShyFields/D1$ rm *
+~/QuarrelsomeShyFields/D1$ ls
+~/QuarrelsomeShyFields/D1$ ls -l
+total 0
+~/QuarrelsomeShyFields/D1$ touch file1 file2
+~/QuarrelsomeShyFields/D1$ cat > file1
+Hello worlld
+java 
+cpp
+js^Z
+[1]+  Stopped                 cat > file1
+~/QuarrelsomeShyFields/D1$ cat file1
+Hello worlld
+java 
+cpp
+~/QuarrelsomeShyFields/D1$ cat > file3
+abc
+def
+^Z
+[2]+  Stopped                 cat > file3
+~/QuarrelsomeShyFields/D1$ cat file3
+abc
+def
+~/QuarrelsomeShyFields/D1$ cat >> file1
+dell
+^Z
+[3]+  Stopped                 cat >> file1
+~/QuarrelsomeShyFields/D1$ cat file1
+Hello worlld
+java 
+cpp
+dell
+~/QuarrelsomeShyFields/D1$ ls -l
+total 8
+-rw-r--r-- 1 runner runner 28 Sep 29 06:25 file1
+-rw-r--r-- 1 runner runner  0 Sep 29 06:22 file2
+-rw-r--r-- 1 runner runner  8 Sep 29 06:24 file3
+~/QuarrelsomeShyFields/D1$ cat file2
+~/QuarrelsomeShyFields/D1$ cat file3
+abc
+def
+~/QuarrelsomeShyFields/D1$ cat > file3
+Text gets overwritten
+^Z
+[4]+  Stopped                 cat > file3
+~/QuarrelsomeShyFields/D1$ cat file3
+Text gets overwritten
+~/QuarrelsomeShyFields/D1$ cat >> file3
+text gets appended
+^Z
+[5]+  Stopped                 cat >> file3
+~/QuarrelsomeShyFields/D1$ cat file3
+Text gets overwritten
+text gets appended
+~/QuarrelsomeShyFields/D1$ ^C
+~/QuarrelsomeShyFields/D1$ cat > file3
+^C
+~/QuarrelsomeShyFields/D1$ cat file3
+~/QuarrelsomeShyFields/D1$ cat >> file3
+file3 text
+abc
+def
+^Z
+[6]+  Stopped                 cat >> file3
+~/QuarrelsomeShyFields/D1$ cat file1
+Hello worlld
+java 
+cpp
+dell
+~/QuarrelsomeShyFields/D1$ cat file1 file3 > file2
+~/QuarrelsomeShyFields/D1$ cat file2
+Hello worlld
+java 
+cpp
+dell
+file3 text
+abc
+def
+~/QuarrelsomeShyFields/D1$ cp file3 file4
+~/QuarrelsomeShyFields/D1$ cat file4
+file3 text
+abc
+def
+~/QuarrelsomeShyFields/D1$ cat file2
+Hello worlld
+java 
+cpp
+dell
+file3 text
+abc
+def
+~/QuarrelsomeShyFields/D1$ cat file4
+file3 text
+abc
+def
+~/QuarrelsomeShyFields/D1$ mv file4 file2
+~/QuarrelsomeShyFields/D1$ cat file4
+cat: file4: No such file or directory
+~/QuarrelsomeShyFields/D1$ cat file2
+file3 text
+abc
+def
+~/QuarrelsomeShyFields/D1$ ls -l
+total 12
+-rw-r--r-- 1 runner runner 28 Sep 29 06:25 file1
+-rw-r--r-- 1 runner runner 19 Sep 29 06:31 file2
+-rw-r--r-- 1 runner runner 19 Sep 29 06:30 file3
+~/QuarrelsomeShyFields/D1$ chmod 777 file3 
+~/QuarrelsomeShyFields/D1$ ls -l
+total 12
+-rw-r--r-- 1 runner runner 28 Sep 29 06:25 file1
+-rw-r--r-- 1 runner runner 19 Sep 29 06:31 file2
+-rwxrwxrwx 1 runner runner 19 Sep 29 06:30 file3
+~/QuarrelsomeShyFields/D1$ chmod u+x , g-r,o+x file2
+chmod: cannot access ',': No such file or directory
+chmod: cannot access 'g-r,o+x': No such file or directory
+~/QuarrelsomeShyFields/D1$ chmod a+x  file2
+~/QuarrelsomeShyFields/D1$ ls -l
+total 12
+-rw-r--r-- 1 runner runner 28 Sep 29 06:25 file1
+-rwxr-xr-x 1 runner runner 19 Sep 29 06:31 file2
+-rwxrwxrwx 1 runner runner 19 Sep 29 06:30 file3
+~/QuarrelsomeShyFields/D1$ chmod u+x,g-r,o+x file2
+~/QuarrelsomeShyFields/D1$ ls -l
+total 12
+-rw-r--r-- 1 runner runner 28 Sep 29 06:25 file1
+-rwx--xr-x 1 runner runner 19 Sep 29 06:31 file2
+-rwxrwxrwx 1 runner runner 19 Sep 29 06:30 file3
+~/QuarrelsomeShyFields/D1$ chmod 666 file2
+~/QuarrelsomeShyFields/D1$ chmod 666 file3
+~/QuarrelsomeShyFields/D1$ wc file1
+ 4  5 28 file1
+~/QuarrelsomeShyFields/D1$ who
+~/QuarrelsomeShyFields/D1$ rm file1 file2 file3
+~/QuarrelsomeShyFields/D1$ ls -l
+total 0
+~/QuarrelsomeShyFields/D1$ cat file1 
+cat: file1: No such file or directory
+~/QuarrelsomeShyFields/D1$ cat > file1
+java
+cpp
+python
+^Z
+[7]+  Stopped                 cat > file1
+~/QuarrelsomeShyFields/D1$ cat file1 
+java
+cpp
+python
+~/QuarrelsomeShyFields/D1$ cat file1 | sort | wc > file2
+~/QuarrelsomeShyFields/D1$ cat file2
+      3       3      16
+~/QuarrelsomeShyFields/D1$ cat file1 | sort > file3
+~/QuarrelsomeShyFields/D1$ cat file3
+cpp
+java
+python
+~/QuarrelsomeShyFields/D1$ cat > y2
+~/QuarrelsomeShyFields$ cat > y2
+1   abc abc1
+2   def def2
+3   jkl abc
+^Z
+[1]+  Stopped                 cat > y2
+~/QuarrelsomeShyFields$ sort -k 3 y2
+3   jkl abc
+1   abc abc1
+2   def def2
